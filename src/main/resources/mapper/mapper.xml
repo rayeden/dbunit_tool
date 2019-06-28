@@ -12,7 +12,7 @@
     <select id="getAllTableName" resultType="java.lang.String">
         SELECT table_name
         FROM information_schema.tables
-        WHERE table_schema = 'beststore2c_test' AND table_type = 'base table';
+        WHERE table_schema = 'dbunit_test' AND table_type = 'base table';
     </select>
 
     <delete id="cleanTable">
